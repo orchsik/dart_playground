@@ -1,5 +1,7 @@
-import 'package:dart_playground/type/index.dart';
+import 'basic/func/index.dart';
+import 'basic/type/index.dart';
 
 void run() {
-  typeRun();
+  // typeRun();
+  funcRun();
 }
