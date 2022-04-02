@@ -20,6 +20,7 @@ linter:
     camel_case_types: true
     unnecessary_this: false
     unnecessary_new: false
+    prefer_initializing_formals: false
     unnecessary_brace_in_string_interps: false
 # analyzer:
 #   exclude:
