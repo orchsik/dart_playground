@@ -18,6 +18,8 @@ include: package:lints/recommended.yaml
 linter:
   rules:
     camel_case_types: true
+    unnecessary_this: false
+    unnecessary_new: false
     unnecessary_brace_in_string_interps: false
 # analyzer:
 #   exclude:

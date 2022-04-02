@@ -1,5 +1,5 @@
 void nullSafetyRun() {
-  int? number = 0;
+  int? number;
   // var result = (number == null ? 100 : number) + 1;
   var result = (number ?? 100) + 1;
 
