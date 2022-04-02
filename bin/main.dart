@@ -1,4 +1,4 @@
-import 'package:dart_application_1/app.dart';
+import 'package:dart_playground/app.dart';
 import 'package:hotreloader/hotreloader.dart';
 
 Future<void> main(List<String> arguments) async {

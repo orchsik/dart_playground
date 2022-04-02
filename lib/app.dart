@@ -1,4 +1,4 @@
 void run() {
-  int result = 7 * 2;
+  int result = 7 * 3;
   print(result);
 }
