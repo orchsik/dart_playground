@@ -1,3 +1,4 @@
+import 'package:dart_playground/async/stream.dart';
 import 'package:dart_playground/basic/class/index.dart';
 import 'package:dart_playground/fp/index.dart';
 import 'package:dart_playground/oop/generic.dart';
@@ -9,5 +10,6 @@ void run() {
   // funcRun();
   // classRun();
   // testClass();
-  testFp();
+  // testFp();
+  // testAsync();
 }
