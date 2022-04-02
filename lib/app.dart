@@ -1,4 +1,5 @@
+import 'package:dart_playground/type/index.dart';
+
 void run() {
-  int result = 7 * 3;
-  print(result);
+  typeRun();
 }

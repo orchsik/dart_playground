@@ -10,7 +10,8 @@ Future<void> main(List<String> arguments) async {
     //   ctx.isolate.name != 'foobar' && // never reload the isolate named 'foobar'
     // ctx.event?.path.contains('/mymodel/')) ?? true, // only perform reload when dart files under ../mymodel/ are changed
     onAfterReload: (ctx) {
-      print('=== Hot-reload result: ${ctx.result}');
+      // print('=== Hot-reload result: ${ctx.result}');
+      print('===');
       run();
     },
   );
